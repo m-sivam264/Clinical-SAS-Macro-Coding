@@ -87,8 +87,6 @@ proc sql;
 			);
 quit;
 
-%symdel datcon / nowarn;
-
 
 
 data practice.RFICDTC;
@@ -252,4 +250,5 @@ data practice.TWELVE;
 	drop DMDTC_NUM RFSTDTC_NUM;
 proc print;
 run;
+
 
